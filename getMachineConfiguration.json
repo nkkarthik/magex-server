@@ -1,0 +1,62 @@
+{
+  "machineConfiguration" : {
+    "priceEnabled" : 1,
+    "stocks" : [ {
+      "elevator" : 1,
+      "index" : 1,
+      "floornumber" : 6,
+      "floors" : [
+        {
+          "index" : 1,
+          "steps" : 16,
+          "laneType" : [ 1, 2, 1, 2, 1, 2, 0, 0, 0 ],
+          "laneStep" : [ 4, 4, 4, 4, 4, 4, 2, 4, 4 ],
+          "laneError" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+          "lanes" : 9
+        },
+        {
+          "index" : 2,
+          "steps" : 16,
+          "laneType" : [ 1, 2, 1, 2, 1, 2, 0, 0, 0 ],
+          "laneStep" : [ 4, 4, 4, 4, 4, 4, 4, 4, 4 ],
+          "laneError" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+          "lanes" : 9
+        },
+        {
+          "index" : 3,
+          "steps" : 16,
+          "lanes" : 9,
+          "laneType" : [ 1, 2, 1, 2, 1, 2, 0, 0, 0 ],
+          "laneStep" : [ 2, 4, 4, 4, 4, 4, 4, 4, 4 ],
+          "laneError" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        {
+          "index" : 4,
+          "steps" : 16,
+          "laneType" : [ 1, 2, 1, 2, 1, 2, 0, 0, 0 ],
+          "laneStep" : [ 4, 4, 4, 4, 4, 4, 4, 4, 4 ],
+          "laneError" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+          "lanes" : 9
+        },
+        {
+          "index" : 5,
+          "lanes" : 9,
+          "laneType" : [ 1, 1, 1, 0, 0, 0, 0, 0, 0 ],
+          "laneStep" : [ 4, 4, 4, 4, 4, 3, 4, 4, 4 ],
+          "laneError" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+          "steps" : 16
+        },
+        {
+          "index" : 6,
+          "steps" : 16,
+          "lanes" : 9,
+          "laneType" : [ 1, 1, 1, 0, 0, 0, 0, 0, 0 ],
+          "laneStep" : [ 4, 4, 6, 1, 6, 4, 4, 4, 4 ],
+          "laneError" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+        }
+      ]
+    }
+    ],
+    "stocknumber" : 1
+  }
+}
